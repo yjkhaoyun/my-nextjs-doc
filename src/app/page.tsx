@@ -26,7 +26,7 @@ const ApiDoc: React.FC = () => {
   "sourceType": 0,
   "userIds": "1,2,3"
 }`}</pre>
-        <table border="1" cellPadding="8" cellSpacing="0">
+        <table border={1} cellPadding="8" cellSpacing="0">
           <thead>
             <tr>
               <th>参数名</th>
@@ -65,7 +65,7 @@ const ApiDoc: React.FC = () => {
         <p><strong>功能说明：</strong> 根据消息 ID 获取发送的详细信息。</p>
 
         <h3>路径参数：</h3>
-        <table border="1" cellPadding="8" cellSpacing="0">
+        <table border={1} cellPadding="8" cellSpacing="0">
           <thead>
             <tr>
               <th>参数名</th>
@@ -153,7 +153,7 @@ msgIds=1,2,3`}</pre>
         <p><strong>功能说明：</strong> 分页查询当前用户的消息列表。</p>
 
         <h3>请求参数：</h3>
-        <table border="1" cellPadding="8" cellSpacing="0">
+        <table border={1} cellPadding="8" cellSpacing="0">
           <thead>
             <tr>
               <th>参数名</th>
@@ -201,7 +201,7 @@ msgIds=1,2,3`}</pre>
         <p><strong>功能说明：</strong> 分页查询发送的消息列表。</p>
 
         <h3>请求参数：</h3>
-        <table border="1" cellPadding="8" cellSpacing="0">
+        <table border={1} cellPadding="8" cellSpacing="0">
           <thead>
             <tr>
               <th>参数名</th>
